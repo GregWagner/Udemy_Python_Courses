@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# File size
+npr.csv
+lending_club_loan_two.csv
+COURSE_NOTEBOOKS.zip
+
 # C extensions
 *.so
 
