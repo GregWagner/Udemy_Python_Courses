@@ -1,0 +1,6 @@
+with open("text.txt") as myfile:
+    content = myfile.read()
+    ....
+
+
+'a+' append and read

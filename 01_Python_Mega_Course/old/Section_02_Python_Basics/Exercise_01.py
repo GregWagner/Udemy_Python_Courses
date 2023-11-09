@@ -1,0 +1,2 @@
+# Variables
+character = "Jon Snow"
