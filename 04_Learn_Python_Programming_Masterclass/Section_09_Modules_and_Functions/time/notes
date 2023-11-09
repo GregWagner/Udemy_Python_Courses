@@ -1,0 +1,45 @@
+2 issues
+    daylight saving time (DST)
+        Some countries do not do this
+    localization
+
+UTC - Coordinated Universal Time
+
+Usually you want to save the time in UTC with an offset for how many hours 
+behind or ahead and a flag to indicate if DST applies and only convert to 
+localtime when you need to display it.
+
+Python provides 3 modules to deal with dates and times
+1) time         Use for elapsed time
+2) datetime
+3) calendars
+
+time.strftime()         string from time
+time.get_clock_info() 
+
+3 different ways to measure elapsed time (see pep 0418)
+time.time               represents an actual time
+time.monotonic          may not be as acurate as perf_time
+time.perf_time          does not represent an actual time (best choice)
+
+time.process_time       CPU time used
+
+TIMEZONES
+time.timezone           seconds offset from UTC (may be neagive)
+                        uses non DST time so you need to check if DST in effect
+time.tzname()           returns tuple with 2 strings
+                        name of the non-DST timezone
+                        name of the DST timezone
+                        need to check value of time.daylight(). if set use 
+                        second name in the tzname
+
+datetime
+naive                   aren't aware of the timezone offset
+aware                   aware of the timezone offset
+
+import datetime
+today = datetime.day.today()
+tomorrow = today + datetime.timedelta(days=1)
+
+pytz - library to handle timezones
+                

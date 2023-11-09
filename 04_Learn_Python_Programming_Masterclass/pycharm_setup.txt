@@ -1,0 +1,5 @@
+New Project
+Choose Python
+Choose New Environment
+  Make sure Virtualenv or Conda is selected
+Tick Inherit global site-packages box then create

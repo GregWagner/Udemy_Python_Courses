@@ -1,0 +1,1 @@
+print("Gregory".strip('G'))
