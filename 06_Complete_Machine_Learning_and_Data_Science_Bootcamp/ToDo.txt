@@ -1,0 +1,15 @@
+Rewatch
+lecture 25      Modeling - Comparsion
+lecture 26      Overfitting and Underfitting Definitions
+lecture 69      Reshape and Transpose
+lecture 70      Dot Product
+lecture 71      Dot Product Exercise
+lecture 77      Extra Numpy resources
+lecture 87      Regular Expressions
+lecture 97      Matplotlib Practice
+lecture 111     Feature Scaling
+lecture 129     ROC Curve + AUC
+lecture 136     Machine Learning Model Evaluation
+lecture 149     Scikit-Learn Practice
+lecture 231     How machines learn
+
