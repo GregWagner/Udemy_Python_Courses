@@ -7,7 +7,9 @@ __pycache__/
 npr.csv
 lending_club_loan_two.csv
 COURSE_NOTEBOOKS.zip
-Train.csvTrainAndValid.csvtrain_tmp.csv
+Train.csv
+TrainAndValid.csv
+train_tmp.csv
 
 # C extensions
 *.so
