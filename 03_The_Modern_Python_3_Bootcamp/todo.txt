@@ -1,0 +1,8 @@
+1) Do all exercises and quizes
+2) Rewatch all of section 20
+3) Rewatch all of section 21
+    - try, except, else, finally
+    - PDB
+4) Rewatch video 256 - properties
+5) Rewatch all of section 27
+6) Rewatch all of section 28

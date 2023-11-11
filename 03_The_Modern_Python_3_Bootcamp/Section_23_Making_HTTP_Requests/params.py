@@ -1,8 +1,10 @@
 import requests
 
 url = "https://icanhazdadjoke.com/search"
+
 #response = requests.get(url, headers={"Accept": "text/plain"})
 #print(response.text)
+
 response = requests.get(
     url,
     headers={"Accept": "application/json"}

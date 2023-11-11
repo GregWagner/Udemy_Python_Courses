@@ -26,4 +26,3 @@ if number_of_jokes:
     print(data['results'].pop(joke)['joke'])
 else:
     print("Sorry I don't know any jokes on that topic")
-
