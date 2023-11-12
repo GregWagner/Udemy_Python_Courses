@@ -1,4 +1,4 @@
-# Example from Visual Studio Code's official website. 
+# Example from Visual Studio Code's official website.
 # https://code.visualstudio.com/docs/python/python-tutorial#_install-and-use-packages
 
 import matplotlib.pyplot as plt
