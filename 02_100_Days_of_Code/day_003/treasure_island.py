@@ -19,20 +19,20 @@ print()
 print('Welcome to Treasure Island.')
 print('Your mission is to find the treasure.')
 
-user_input = input('Do you want to go [L]eft or [Right]: ')
-if user_input != 'L':
+user_input = input('Do you want to go [L]eft or [Right]: ').lower()
+if user_input[0] != 'l':
     print('You fell into a hole and died...')
 else:
-    user_input = input('Do you want to swim or wait: ')
+    user_input = input('Do you want to swim or wait: ').lower()
     if user_input != 'wait':
         print('You were attacked by a trout and died...')
     else:
-        user_input = input('Do you want to enter the [R]ed or [B]lue or [Y]ellow door: ')
-        if user_input == 'R':
+        user_input = input('Do you want to enter the [R]ed or [B]lue or [Y]ellow door: ').lower()
+        if user_input[0] == 'r':
             print('You were burned by fire and died...')
-        elif user_input == 'B':
+        elif user_input[0] == 'b':
             print('You were eaten by beasts and died...')
-        elif user_input == 'Y':
+        elif user_input[0] == 'y':
             print('You won...')
         else:
             print('Game over')

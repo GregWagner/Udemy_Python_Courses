@@ -1,9 +1,19 @@
 ''' First App '''
-USER_PROMPT = 'Enter a todo: '
+todos = []
 
-todo1 = input(USER_PROMPT)
-todo2 = input(USER_PROMPT)
-todo3 = input(USER_PROMPT)
-todos = [todo1, todo2, todo3]
+while True:
+    user_action = input('Type add, edit, show, or exit: ').strip().lower()
 
-print(todos)
+    match user_action:
+        case 'add':
+            todo = input('Enter a todo: ')
+            todos.append(todo)
+        case 'show':
+            for item in todos:
+                print(item.title())
+        case 'edit':
+            number = int(input('Number of the todo to edit: ')) - 1
+            todos[number] = input('Enter new todo: ')
+        case 'exit':
+            break
+print('bye')
